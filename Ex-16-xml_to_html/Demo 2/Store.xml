@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="StoreXSL.xsl" type="text/xsl"?>
+<catalog>
+    <product>
+        <name>Laptop</name>
+        <price>63000</price>
+        <model>ASUS TUF F15</model>
+        <warrenty>1 year</warrenty>
+        <weight>2.2 kg</weight>
+    </product>
+    <product>
+        <name>Mobile</name>
+        <price>58000</price>
+        <model>iPhone Pro 13</model>
+        <warrenty>1 year</warrenty>
+        <weight>0.4 kg</weight>
+    </product>
+    <product>
+        <name>TV</name>
+        <price>30000</price>
+        <model>Samsung A10</model>
+        <warrenty>5 year</warrenty>
+        <weight>4 kg</weight>
+    </product> 
+    <product>
+        <name>Washing Machine</name>
+        <price>60000</price>
+        <model>Whirpool</model>
+        <warrenty>10 year</warrenty>
+        <weight>8 kg</weight>
+    </product> 
+    <product>
+        <name>Oven</name>
+        <price>10000</price>
+        <model>Bajaj 25 L</model>
+        <warrenty>3 year</warrenty>
+        <weight>2 kg</weight>
+    </product> 
+</catalog>

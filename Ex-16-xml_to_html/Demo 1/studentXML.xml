@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="studentXSL.xsl"?>
+<class>
+
+    <student>
+        <firstname>Pratik</firstname>
+        <lastname>patil</lastname>
+        <nickname>hello</nickname>
+    </student>
+    <student>
+        <firstname>ABC</firstname>
+        <lastname>XYZ</lastname>
+        <nickname>ABC</nickname>
+    </student>
+    <student>
+        <firstname>PQR</firstname>
+        <lastname>KLM</lastname>
+        <nickname>PQR</nickname>
+    </student>
+</class>
