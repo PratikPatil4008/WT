@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <?xml-stylesheet type="text/xsl" href="bookstore.xml"?>
+<body>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+
+    <script>
+        var parser, xmlDoc;
+        var text = "<bookstore><book>" +
+            "<title>Everyday Italian</title>" +
+            "<author>Giada De Laurentiis</author>" +
+            "<year>2005</year>" +
+            "<price>34</price>"
+            "</book></bookstore>";
+
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(text, "text/xml");
+
+        document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        document.getElementById("demo1").innerHTML = xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue;
+        document.getElementById("demo2").innerHTML = xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue;
+        document.getElementById("demo3").innerHTML = xmlDoc.getElementsByTagName("price")[0].childNodes[0].nodeValue;
+    </script>
+
+</body>
+
+</html>
