@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT personinfo (person+)>
+<!ELEMENT person (name, profession, age, city)>
+<!ELEMENT name (firstname, lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT profession (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ATTLIST person pid ID #REQUIRED>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personinfo [
+    <!ELEMENT personinfo (person+)>
+    <!ELEMENT person (name, profession, age, city)>
+    <!ELEMENT name (firstname,lastname)>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT profession (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT city (#PCDATA)>
+    <!ATTLIST person pid ID #REQUIRED>
+]><!-- DTD - Document Type Defination -->
+<personinfo>
+    <person pid="P1">
+        <name>
+            <firstname>Pranav</firstname>
+            <lastname>Bhokare</lastname>
+        </name>
+        <profession>Student</profession>
+        <age>21</age>
+        <city>Ichalkaranji</city>
+    </person>
+    <person pid="P2">
+        <name>
+            <firstname>ABC</firstname>
+            <lastname>XYZ</lastname>
+        </name>
+        <profession>Teacher</profession>
+        <age>42</age>
+        <city>Kolhapur</city>
+    </person>
+</personinfo>
