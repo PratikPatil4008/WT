@@ -27,7 +27,16 @@
             <div class="card-body">
 
 <?php
-// define variables and set to empty values
+// function to validate url 
+             filter_var($url, FILTER_VALIDATE_URL) // whre url is link taken from 
+             /*
+             split string using spli_str($str)
+             travers using for  on array
+             make aplphabate arrar
+             while traversing check string char in in alphabate arra 
+             in_array
+             
+             */
 
 
 
